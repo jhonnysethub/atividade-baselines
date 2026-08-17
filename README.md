@@ -60,7 +60,7 @@ Solicitação formal de mudança: [RFC-001](RFC-001-mysql.md)
 
 ## Desafio 4 - Criar uma Nova Baseline
 
-Nova configuração implementada, testada e aprovada: [BASELINE-v1.1]() <!-- Adicionar link -->
+Nova configuração implementada, testada e aprovada: [BASELINE-v1.1](BASELINE-V1.1.md) <!-- Adicionar link -->
 
 ## Desafio 5 - Configuration Drift
 
