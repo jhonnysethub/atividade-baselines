@@ -64,15 +64,16 @@ Nova configuração implementada, testada e aprovada: [BASELINE-v1.1]() <!-- Adi
 
 ## Desafio 5 - Configuration Drift
 
-| Situação                                                       | É mudança controlada? | Está na baseline? |
-| -------------------------------------------------------------- | --------------------- | ----------------- |
-| Desenvolvedor altera o código e realiza um novo commit.        |                       |                   |
-| Administrador altera manualmente uma configuração em produção. |                       |                   |
-| Mudança aprovada e documentada gera a baseline v1.1.           |                       |                   |
+| Situação                                                      | Mudança controlada?                         | Está na baseline? |
+| ------------------------------------------------------------- | ------------------------------------------- | ----------------- |
+| Desenvolvedor altera o código e realiza um novo commit        | Não, se não passou pelo processo de mudança | Não               |
+| Administrador altera manualmente uma configuração em produção | Não                                         | Não               |
+| Mudança aprovada e documentada gera a baseline v1.1           | Sim                                         | Sim               |
 
 **Explique: Se alguém alterar manualmente o servidor depois da baseline v1.1, o que aconteceu com a configuração do ambiente?**
 
-Lorem Ipsum...
+Irá ocorrer um Configuration Drift, porque o estado real do servidor passou a ser diferente do estado oficial definido pela baseline v1.1
+O configuration Drift aparece quando uma alteração não foi solicitada, avaliada, aprovada ou registrada
 
 ## Pergunta Final
 
@@ -84,7 +85,7 @@ Lorem Ipsum...
 
 ### Luiz Felipe Gomes
 
-Lorem Ipsum...
+A baseline é um documento descrito em vários frameworks de governança de ti (COBIT) para o profissional de DevOps acompanhar as configurações e mudanças do ambiente. Quando alterações são feitas sem controle, podem surgir o Configuration Drift que é quando o ambiente real é diferente do registrado oficialmente na baseline.
 
 ### Miqueias Eduardo
 
