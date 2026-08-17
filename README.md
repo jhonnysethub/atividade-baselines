@@ -81,7 +81,7 @@ O configuration Drift aparece quando uma alteração não foi solicitada, avalia
 
 ### Jhonny Emmanoel
 
-Lorem Ipsum...
+A baseline é importante porque funciona como uma foto do sistema que deu certo, garantindo que todo mundo saiba exatamente o que está rodando em produção. Quando alteramos coisas "no olho" e sem controle, criamos ambientes desatualizados e imprevisíveis, o que gera bugs difíceis de encontrar em produção e nos deixa totalmente no escuro na hora de tentar voltar atrás (rollback) se algo der errado.
 
 ### Luiz Felipe Gomes
 
