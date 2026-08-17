@@ -26,7 +26,7 @@ Atividade prática em grupo com o objetivo de compreender o conceito de **Baseli
 
 ## Desafio 1 - Criar a Baseline
 
-Estado oficial aprovado do sistema: [BASELINE-v1.0]() <!-- Adicionar link -->
+Estado oficial aprovado do sistema: [BASELINE-v1.0](BASELINE-V1.0.md)
 
 ## Desafio 2 - Mudança Não Autorizada
 
@@ -56,7 +56,7 @@ Ela deve ser atualizada formalmente para uma nova versão, mantendo o histórico
 
 ## Desafio 3 - Criar uma RFC
 
-Solicitação formal de mudança: [RFC-001]() <!-- Adicionar link -->
+Solicitação formal de mudança: [RFC-001](RFC-001-mysql.md)
 
 ## Desafio 4 - Criar uma Nova Baseline
 
@@ -88,7 +88,7 @@ Lorem Ipsum...
 
 ### Miqueias Eduardo
 
-Lorem Ipsum...
+A baseline é importante para manter versões e configurações estáveis e compatíveis entre si para o funcionamento da aplicação. Ela também documenta as decisões de configuração utilizadas no sistema, evitando problemas causados por atualizações de dependências que podem gerar incompatibilidades com o sistema. Com mudanças e atualizações documentadas e avaliadas, a aplicação mantém seu funcionamento consistente e reduz o risco de falhas causadas por alterações na configuração. Além disso, permite consultar o histórico e entender as decisões tomadas durante as mudanças.
 
 ### Nelson Henrique
 
